@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fat Calculator</string>
+
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+    <string name="checkin">Checkin</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main2">US Army Fat Calculator</string>
+    <string name="maleunderweight"></string>
+    <string name="femaleundeweight">Female less than 0.42</string>
+    <string name="terms_condition">This app was developed by Microhealth llc.By using this app,the terms and conditions below will automatically apply to you – Please read them  before using the app </string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <string name="copy_right">2017 All © rights reserved</string>
+</resources>
