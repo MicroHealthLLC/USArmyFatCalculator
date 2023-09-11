@@ -5,35 +5,25 @@ package com.example.maxmoons.usarmy_fatcalculator.About;
  */
 
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.res.Configuration;
-import android.icu.util.Calendar;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
-import android.support.v7.widget.RecyclerView;
-import android.text.Html;
-import android.text.Spannable;
-import android.text.Spanned;
-import android.text.method.LinkMovementMethod;
-import android.text.util.Linkify;
-import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.maxmoons.usarmy_fatcalculator.R;
+import com.google.android.material.navigation.NavigationView;
 
 import butterknife.ButterKnife;
 
@@ -43,8 +33,6 @@ import butterknife.ButterKnife;
  */
 
 public class About  extends AppCompatActivity {
-
-
 
     private RecyclerView recyclerView;
 
@@ -84,7 +72,7 @@ public class About  extends AppCompatActivity {
         termsofUse.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoURl("https://www.microhealthllc.com/about/terms-of-use/");
+                gotoURl("https://www.microhealthllc.com/home/terms-of-service/");
 
             }
         });
@@ -92,19 +80,11 @@ public class About  extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                gotoURl("https://www.microhealthllc.com/about/privacy-policy/");
+                gotoURl("https://www.microhealthllc.com/home/privacy-policy/");
 
             }
         });
 
-
-        //   twitterview.setClickable(true);
-        //    websitetxt =(TextView) findViewById(R.id.websiteurl);
-        //   websitetxt.setClickable(true);
-        //   websitetxt.setText(Html.fromHtml(website));
-
-        //   twitterview.setText(Html.fromHtml(twiteracc));
-        // Linkify.addLinks(twitterview,Linkify.ALL);
         ButterKnife.bind(this);
         if(getSupportActionBar()!=null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -112,10 +92,6 @@ public class About  extends AppCompatActivity {
             getSupportActionBar().setTitle("About");
 
         }
-
-
-
-
 
     }
 
@@ -137,21 +113,8 @@ public class About  extends AppCompatActivity {
     @Override
 
     public void onBackPressed() {
-
-
-
             super.onBackPressed();
-
         }
-
-
-
-
-
-
-
-
-
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
@@ -176,9 +139,5 @@ public class About  extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-
-
-
 
 }

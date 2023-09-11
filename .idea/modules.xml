@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/USArmy-FatCalculator.iml" filepath="$PROJECT_DIR$/USArmy-FatCalculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/USArmyFatCalculator.iml" filepath="$PROJECT_DIR$/.idea/modules/USArmyFatCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/USArmyFatCalculator.app.unitTest.iml" />
     </modules>
   </component>
 </project>
