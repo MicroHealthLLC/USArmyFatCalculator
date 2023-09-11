@@ -3,25 +3,16 @@ package com.example.maxmoons.usarmy_fatcalculator;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.ImageView;
-import android.widget.Switch;
-import android.widget.TextView;
-import android.content.Intent;
-import android.content.pm.ActivityInfo;
-import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.maxmoons.usarmy_fatcalculator.About.About;
 
@@ -48,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         final TextView HipNumber = (TextView) findViewById(R.id.HipNumber);
         final TextView NeckNumber = (TextView) findViewById(R.id.NeckNumber);
         final TextView HeightNumber = (TextView) findViewById(R.id.HeightNumber);
-        final TextView BodyFatPercent = (TextView) findViewById(R.id.BodyFatPercent);
         final CheckBox Female = (CheckBox) findViewById(R.id.Female);
 
 
@@ -149,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, About.class));
                 break;
             case R.id.terms:
-                Uri uri = Uri.parse("https://microhealthllc.com/about/terms-of-use/");
+                Uri uri = Uri.parse("https://www.microhealthllc.com/home/terms-of-service/");
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
                 break;
@@ -171,13 +161,6 @@ public class MainActivity extends AppCompatActivity {
             else
                 BodyFatPercent.setText("0%");
     }
-
-    /*public void Terms(View v)
-    {
-        Uri uri = Uri.parse("https://microhealthllc.com/about/terms-of-use/");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }*/
 
     public void Infotab(View v)
     {
